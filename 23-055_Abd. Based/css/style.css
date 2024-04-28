@@ -1,0 +1,170 @@
+html,
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #ccccff;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+}
+header {
+  background-color: #141e46;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.1em;
+}
+b {
+  font-size: 18px;
+}
+* {
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.left-column {
+  flex: 33%;
+  background-color: #1679ab;
+  padding: 20px;
+}
+.right-column {
+  flex: 66%;
+  background-color: #1679ab;
+  padding: 20px;
+}
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+.profile-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-left: 100px;
+}
+
+.profile-image img {
+  width: 220px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.profile-image p {
+  margin-left: 65px;
+  margin-bottom: 0%;
+  font-size: large;
+  font-weight: bold;
+  font-family: "Ubuntu";
+}
+
+.profile-text {
+  text-align: center;
+  margin-top: 245px;
+  color: #ffffff;
+}
+.card {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+  padding-bottom: 2em;
+  border-radius: 20px;
+}
+.info-panel,
+.exper-panel,
+.edu-panel {
+  font-size: 16px;
+  color: #666666;
+  padding: 0.5em 1.5em;
+}
+.skills-bar,
+.language-bar {
+  width: 100%;
+  background-color: #e6e6ff;
+  border-radius: 1em;
+}
+
+.container ul li {
+  font-family: "Ubuntu";
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 7px;
+}
+
+.skills,
+.language {
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
+.html {
+  width: 70%;
+  background-color: #141e46;
+  border-radius: 1em;
+}
+.css {
+  width: 70%;
+  background-color: #141e46;
+  border-radius: 1em;
+}
+.komputer {
+  width: 85%;
+  background-color: #141e46;
+  border-radius: 1em;
+}
+.designer {
+  width: 80%;
+  background-color: #141e46;
+  border-radius: 1em;
+}
+.english {
+  width: 20%;
+  background-color: #141e46;
+  border-radius: 1em;
+}
+.indonesian {
+  width: 100%;
+  background-color: #141e46;
+  border-radius: 1em;
+}
+.javanese {
+  width: 70%;
+  background-color: #141e46;
+  border-radius: 1em;
+}
+.maduranese {
+  width: 100%;
+  background-color: #141e46;
+  border-radius: 1em;
+}
+mark {
+  padding: 5px;
+  background-color: #141e46;
+  color: white;
+  border-radius: 0.2em;
+}
+
+.container img {
+  width: 150px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  text-decoration: none;
+  background-color: #141e46;
+  color: #33ffff;
+  padding: 1em;
+}
+.social-links {
+  color: #ffffff;
+}
+.social-links :hover {
+  color: white;
+}
+a {
+  color: #33ffff;
+  text-decoration: none;
+}
